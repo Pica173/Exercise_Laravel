@@ -1,6 +1,7 @@
 # Todoアプリ
 Todoリストを作成するアプリ
 <img width="838" alt="スクリーンショット 2022-08-07 15 03 48" src="https://user-images.githubusercontent.com/106429578/183277910-10c16448-b5bb-4afe-b7fe-48b9a3008612.png">
+
 タスク名、タグで検索することができる
 <img width="769" alt="スクリーンショット 2022-08-07 15 09 52" src="https://user-images.githubusercontent.com/106429578/183277918-8d81475d-76f5-4319-b4dd-59ded2933b15.png">
 
