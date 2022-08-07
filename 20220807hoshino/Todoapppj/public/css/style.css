@@ -1,0 +1,179 @@
+body {
+  background-color: rgb(34, 20, 112);
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+p{
+  display: inline;
+}
+
+.Container {
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 50%;
+  padding: 30px;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.logout{
+  display: inline;
+}
+.content {
+  border: 1px solid rgba(186, 177, 177, 0.48);
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.content_list {
+  border: 1px solid rgba(186, 177, 177, 0.48);
+  width: 90%;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.select {
+  border: 1px solid rgba(186, 177, 177, 0.48);
+  width: 60px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+
+.find_btn {
+  text-align: left;
+  border: 2px solid greenyellow;
+  background-color: white;
+  color: greenyellow;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 8px 16px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.4s;
+  outline: none;
+  margin-bottom: -20px;
+}
+
+.find_btn:hover {
+  background-color: greenyellow;
+  color: white;
+}
+.logout_btn {
+  text-align: left;
+  border: 2px solid red;
+  background-color: white;
+  color: red;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 8px 16px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.4s;
+  outline: none;
+  display: inline;
+}
+
+.logout_btn:hover {
+  background-color: red;
+  color: white;
+}
+.add_btn {
+    text-align: left;
+    border: 2px solid plum;
+    background-color: white;
+    color: plum;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 8px 16px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+  }
+
+.add_btn:hover {
+  background-color: plum;
+  color: white;
+}
+  
+.update_btn {
+  text-align: left;
+  border: 2px solid orange;
+  background-color: white;
+  color: orange;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 8px 16px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.4s;
+  outline: none;
+}
+
+.update_btn:hover {
+  background-color: orange;
+  color: white;
+}
+
+.del_btn {
+  text-align: left;
+  border: 2px solid cyan;
+  background-color: white;
+  color: cyan;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 8px 16px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.4s;
+  outline: none;
+}
+
+.del_btn:hover {
+  background-color: cyan;
+  color: white;
+}
+  table {
+    width: 100%;
+  }
+
+.table_ttl {
+  text-align: center;
+  width: 100%;
+  padding-top: 30px;
+}
+
+
+.table_content {
+  text-align: center;
+  width: 100%;
+}
+
+tr {
+  height: 50px;
+}
