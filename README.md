@@ -30,3 +30,6 @@ Todoリストを作成するアプリ
 
 ## ER図
 ![tables drawio](https://user-images.githubusercontent.com/106429578/183278005-78b1ab8b-47f0-48c1-b48c-29d7f68918b4.png)
+
+##環境構築
+tagsテーブルに初期データを格納するため、シーディングを実行すること
